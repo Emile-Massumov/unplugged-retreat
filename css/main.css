@@ -150,6 +150,7 @@ textarea {
    .content-wrapper {
      width: 90%;
      margin: 50px 0;
+
    }
 
 
@@ -233,7 +234,12 @@ margin: 20px 0;
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
-   }
+     background: url('../img/jake-melara-30679-unsplash.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     color: #fff;
+     }
 
    aside {
      display: flex;
@@ -246,6 +252,11 @@ margin: 20px 0;
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     color: #333;
+     background: url('../img/rawpixel-800820-unsplash1.jpg');
    }
    .features .features-items {
      display: flex;
@@ -258,6 +269,11 @@ margin: 20px 0;
      justify-content: center;
      flex-flow: row wrap;
      background-color:#254d40;
+     background: url('../img/omar-lopez-296944-unsplash.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+
 
    }
    .content-wrapper {
@@ -334,29 +350,6 @@ margin: 20px 0;
      margin-bottom: 50px;
    }
 
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
 aside .form {
   margin-top: 30px;
 }
