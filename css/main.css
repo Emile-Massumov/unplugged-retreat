@@ -222,6 +222,12 @@ text-align: center;
 }
 .features p  {
 margin:0px;
+text-align: center;
+}
+
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
 }
 footer .copyright {
 margin: 20px 0;
