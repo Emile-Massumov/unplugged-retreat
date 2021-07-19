@@ -94,7 +94,7 @@ textarea {
 
    body {
       font-family: 'Open Sans', sans-serif;
-      font-style: 1em;
+      font-size: 1em;
       text-align: left;
    }
 
@@ -206,9 +206,8 @@ textarea {
 
    footer .social-icons {
      display: flex;
-     justify-content:space-between;
+     justify-content:space-around;
      align-items: center;
-     margin: 0px 0px;
    }
    footer .social-icons p {
      display: flex;
@@ -227,6 +226,7 @@ textarea {
   footer .content-wrapper {
     width: 55%;
     margin: 50px 0;
+
    }
    footer  {
     flex-direction: column;
@@ -305,9 +305,7 @@ margin: 20px 0;
      background-repeat: no-repeat;
      background-position: center;
       }
-   .content-wrapper {
-     width: ;
-   }
+
    .header-divider{
      width: 100%;
      height: 1px;
@@ -395,7 +393,7 @@ margin: 20px 0;
    }
    .faq-area  {
      display: flex;
-     justify-content: center;
+     justify-content:center;
      align-items: center;
      flex-flow: row wrap;
      background-color: #527158;
@@ -647,23 +645,40 @@ input[type=button] {
 
        /* Footer */
        footer .content-wrapper {
-           width:65%;
-           margin: 100px 0;
+         width: 65%;
+         margin: 100px 0;
+
        }
 
-       .footer-content {
-          display: flex;
-          justify-content:space-between;
+       footer .footer-content {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         flex-direction: row;
        }
 
        footer .contact {
-           margin-bottom: 0;
+         margin-bottom: 0;
+       }
+
+       footer h4 {
+         font-size: 1.5em;
+         margin-bottom: 40px;
+       }
+
+       footer p {
+           line-height: 1.285;
+       }
+
+       footer .social-icons {
+         width: 12.5em;
+         justify-content: space-between;
        }
 
        footer .copyright {
-           width:50%;
+         width: 100%;
        }
-    
+
 
 
 
@@ -684,7 +699,7 @@ input[type=button] {
    }
 
    .contact-section .content-wrapper h2 {
-     width: 80%;
+     width: 100%;
    }
 
    .contact-content {
@@ -773,8 +788,13 @@ About Page
 ========================================================================== */
  .mission h2,
    .contact-section.content-wrapper h2 {
-     width:95%;
+     width: 100%;
  }
+ .contact-section address {
+   justify-content:space-between;
+   flex-flow: row wrap;
+   width: 100%;
+}
 
 
 
@@ -782,11 +802,32 @@ About Page
 /* ==========================================================================
 FAQ Page
 ========================================================================== */
- .faq h2 {
+ h2 {
      width: 100%;
  }
 
+ .faq-content {
+ width:44%;
+}
+
+/***here how separate texte in two separate lines******flex-flow:row wrap***/
+ .content-wrapper {
+ justify-content: space-between;
+ flex-flow:row wrap;
+ display: flex;
+}
+
+header {
+width:100%;
+}
+footer .content-wrapper {
+justify-content: space-between;
+width: 100%;
+flex-flow: column;
+}
+
    }
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
